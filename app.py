@@ -63,7 +63,7 @@ def verificar():
         imagen_final = "https://media.giphy.com/media/8EmeieJAGjvUI/giphy.gif"
     else:
         mensaje_final = "¡AY CARAMBA! Te falta ver mucha más televisión. Nivel: Rafa Gorgory."
-        imagen_final = "https://makeagif.com/gif/lisa-le-rompe-el-corazon-a-rafa-Cgz9xW"
+        imagen_final = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbml4YnhtMjBxeTQ4bmRkNGhvbDN5bmJzbnNtc2kyY2RtMzhta3pjbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/amWPELxpf0DEA/giphy.gif"
 
     return render_template("resultados.html", 
                            puntaje=puntaje, 
