@@ -54,16 +54,16 @@ def verificar():
     
     if porcentaje_aciertos == 100:
         mensaje_final = "¡EXCELENTE! Eres el Sujeto de las Historietas (Jeff Albertson). Lo sabes todo."
-        imagen_final = "https://media.giphy.com/media/xT5LMv8D1v8Jb0a2cI/giphy.gif"
+        imagen_final = "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHgxbHE0eG9tb2MxencyeGk4YWI1ODJ1ZWxsMzFtMHJtYm9peWxzZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6Mbsje9fXoeVzSVy/giphy.gif"
     elif porcentaje_aciertos >= 70:
         mensaje_final = "¡MUY BIEN! Tienes el nivel de conocimiento de Lisa Simpson."
-        imagen_final = "https://media.giphy.com/media/3orieXZQUDw90yB0Zq/giphy.gif"
+        imagen_final = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTFjMmhpOTZpMDZuODI5Y2l3anUwc2lhYW5penRrZ3V6amZwMzljNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Bi9hWuzf53wt5IdUsm/giphy.gif"
     elif porcentaje_aciertos >= 40:
         mensaje_final = "NADA MAL... pero te equivocaste bastante. Nivel: Homero Simpson."
         imagen_final = "https://media.giphy.com/media/8EmeieJAGjvUI/giphy.gif"
     else:
         mensaje_final = "¡AY CARAMBA! Te falta ver mucha más televisión. Nivel: Rafa Gorgory."
-        imagen_final = "https://media.giphy.com/media/55itGuoCGcmpa/giphy.gif"
+        imagen_final = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHI4YnpwZzh2bzhvaGRhdjZibzhmaW5hOGN1djExM3Y1d241cDdhaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/amWPELxpf0DEA/giphy.gif"
 
     return render_template("resultados.html", 
                            puntaje=puntaje, 
